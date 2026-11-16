@@ -15,8 +15,8 @@
 }
 
 .brand-logo {
-  width: 48px;
-  height: 48px;
+  /* width: 48px; */
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -293,6 +293,10 @@
 }
 
 @media (max-width: 450px) {
+  .brand-logo a img {
+  width: 100px;
+  height: auto;
+}
   .difficulty-options {
     gap: 7px;
   }
